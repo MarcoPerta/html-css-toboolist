@@ -4,10 +4,56 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+}
+
 header span {
     font-size: 2.5rem;
 }
 
 .logo, .text-logo {
     vertical-align: middle;
+}
+
+.container{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    height: 31.25rem;
+    margin-top: 10vh;
+    background-color: white;
+}
+
+.buttons{
+    height: 15%;
+}
+
+.button-filled{
+    background-color: #47ADF1;
+    color: white;
+    border: #47ADF1;
+  }
+
+.button-empty{
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+  }
+
+.button{
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    width: 80px;
+    margin: 25px 10px;
+}
+
+.line{
+    height: 2px; 
+    width: 100%;
+    background-color: grey;
 }
