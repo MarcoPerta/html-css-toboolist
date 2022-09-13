@@ -12,6 +12,10 @@ header{
     background-color: white;
 }
 
+.header-logo{
+    margin: 0rem 0.625rem;
+}
+
 header span {
     font-size: 2.5rem;
 }
@@ -20,10 +24,11 @@ header span {
     vertical-align: middle;
 }
 
+/* fine header */
+
 .container{
     width: 60%;
     margin: auto;
-    height: 31.25rem;
     margin-top: 10vh;
     background-color: white;
 }
@@ -48,17 +53,22 @@ header span {
     border-radius: 5px 5px 5px 5px;
     height: 30px;
     width: 80px;
-    margin: 25px 10px;
+    margin: 1.563rem 0.625rem;
 }
 
 .line{
-    height: 2px; 
+    height: 0.125rem; 
     width: 100%;
     background-color: grey;
 }
 
+/* fine bottoni iniziali */
+
+
+/* lista parte centrale */
+
 .lists, .options{
-    margin: 10px 10px;
+    margin: 0.625rem 0.625rem;
 }
 
 h3::before{
@@ -66,24 +76,64 @@ h3::before{
 }
 
  h3 {
-    color: #62666E;
+    color: #6D7077;
 }
 
 .circle{
+    vertical-align: middle;
     border-radius: 50%;
     color: green;
-    border: green;
+    border:1px solid green;
+}
+
+.circle-no{
+    vertical-align: middle;
+    border-radius: 50%;
+    color: red;
+    border:1px solid red;
 }
 
 .mini-button{
-    margin-left: 5px;
+    margin-left: 0.313rem;
     border-radius: 8px 8px 8px 8px;
-    width: 60px;
-    height: 25px;
+    width: 4.063rem;
+    height: 1.563rem;
 }
+
+/* inizio colori dei vari bottoni */
 
 .blue {
     color: white;
     background-color: #45ABEA;
     border: #45ABEA;
+}
+
+.violet {
+    color: white;
+    background-color: #9C72E4;
+    border: #9C72E4;
+}
+
+.green {
+    color: white;
+    background-color: #8BD1C1;
+    border: #8BD1C1;
+}
+
+.orange {
+    color: white;
+    background-color: #F29E33;
+    border: #F29E33;
+}
+
+.pink{
+    color: white;
+    background-color: #D863A1;
+    border: #D863A1;
+}
+
+.yellow{
+    color: white;
+    background-color: #B0C926;
+    border: #B0C926;
 }
